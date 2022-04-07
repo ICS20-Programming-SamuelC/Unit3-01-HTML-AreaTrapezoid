@@ -18,5 +18,5 @@ function calculate () {
   const area = (base1 + base2) / 2 * height
 
   // output
-  document.getElementById('area').innerHTML = 'The are of the trapazoid is ' + area + ' cm squared. '
+  document.getElementById('area').innerHTML = 'The are of the trapazoid is ' + area.toFixed(3) + ' cm squared. '
 }
